@@ -1,1 +1,3 @@
-// This is where it all goes :)
+// application.js.es6
+
+//= require babel/polyfill

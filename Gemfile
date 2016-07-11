@@ -9,3 +9,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 # Middleman gems.
 gem "middleman", ">= 4.0.0"
 gem "middleman-livereload"
+gem "middleman-sprockets"
+gem "sprockets-es6"
