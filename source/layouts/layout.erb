@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <%# Use title if it's in the page YAML frontmatter %>
+    <title><%= current_page.data.title || "fizzy" %></title>
 
     <%= stylesheet_link_tag :application %>
   </head>
